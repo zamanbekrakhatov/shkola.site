@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oqiw Orayi - Учебный центр</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Oqiw Orayi</div>
+                <nav class="nav" id="nav">
+                    <a href="#hero" class="nav-link">Главная</a>
+                    <a href="#about" class="nav-link">О нас</a>
+                    <a href="#courses" class="nav-link">Курсы</a>
+                    <a href="#teachers" class="nav-link">Преподаватели</a>
+                    <a href="#contact" class="nav-link">Контакты</a>
+                </nav>
+                <button class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Учебный центр<br><span>Oqiw Orayi</span></h1>
+                <p class="hero-subtitle">Откройте новые возможности вместе с нами.<br>Качественное образование для вашего будущего.</p>
+                <button class="btn btn-primary" id="trialBtn">Записаться на пробный урок</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">О нашем центре</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">📚</div>
+                    <h3>Опытные преподаватели</h3>
+                    <p>Наши педагоги имеют многолетний опыт и современные методики обучения</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🎯</div>
+                    <h3>Индивидуальный подход</h3>
+                    <p>Мы учитываем особенности каждого ученика и адаптируем программу</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">⭐</div>
+                    <h3>Проверенные результаты</h3>
+                    <p>95% наших выпускников достигают поставленных целей</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <h2 class="section-title">Наши курсы</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="course-tag">Популярный</div>
+                    </div>
+                    <div class="course-content">
+                        <h3>Английский язык</h3>
+                        <p>Изучение английского языка с нуля до продвинутого уровня. Разговорная практика, грамматика, подготовка к экзаменам.</p>
+                        <div class="course-info">
+                            <span>⏱️ 3 месяца</span>
+                            <span>👥 До 8 человек</span>
+                        </div>
+                        <button class="btn btn-secondary course-btn" data-course="Английский язык">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image course-image-2"></div>
+                    <div class="course-content">
+                        <h3>Математика</h3>
+                        <p>Углубленное изучение математики. Подготовка к ЕГЭ, ОГЭ и олимпиадам. Развитие логического мышления.</p>
+                        <div class="course-info">
+                            <span>⏱️ 4 месяца</span>
+                            <span>👥 До 6 человек</span>
+                        </div>
+                        <button class="btn btn-secondary course-btn" data-course="Математика">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image course-image-3"></div>
+                    <div class="course-content">
+                        <h3>Программирование</h3>
+                        <p>Основы веб-разработки: HTML, CSS, JavaScript. Создание сайтов и приложений с нуля.</p>
+                        <div class="course-info">
+                            <span>⏱️ 6 месяцев</span>
+                            <span>👥 До 10 человек</span>
+                        </div>
+                        <button class="btn btn-secondary course-btn" data-course="Программирование">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image course-image-4"></div>
+                    <div class="course-content">
+                        <h3>Подготовка к школе</h3>
+                        <p>Комплексная подготовка детей к первому классу. Чтение, письмо, счет, развитие речи.</p>
+                        <div class="course-info">
+                            <span>⏱️ 9 месяцев</span>
+                            <span>👥 До 8 человек</span>
+                        </div>
+                        <button class="btn btn-secondary course-btn" data-course="Подготовка к школе">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section class="teachers" id="teachers">
+        <div class="container">
+            <h2 class="section-title">Наши преподаватели</h2>
+            <div class="teachers-grid">
+                <div class="teacher-card">
+                    <div class="teacher-photo"></div>
+                    <h3>Алия Нурбекова</h3>
+                    <p class="teacher-subject">Английский язык</p>
+                    <p class="teacher-exp">Опыт: 12 лет</p>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo teacher-photo-2"></div>
+                    <h3>Ержан Касымов</h3>
+                    <p class="teacher-subject">Математика</p>
+                    <p class="teacher-exp">Опыт: 15 лет</p>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo teacher-photo-3"></div>
+                    <h3>Айгуль Смагулова</h3>
+                    <p class="teacher-subject">Программирование</p>
+                    <p class="teacher-exp">Опыт: 8 лет</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Свяжитесь с нами</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <p>г. Алматы, ул. Абая 150</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <p>+7 (727) 123-45-67</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <p>info@oqiworayi.kz</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">⏰</span>
+                        <p>Пн-Пт: 9:00 - 20:00<br>Сб-Вс: 10:00 - 18:00</p>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Телефон" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Сообщение" rows="4"></textarea>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Oqiw Orayi. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <h2>Записаться на пробный урок</h2>
+            <p class="modal-subtitle">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+            <form class="modal-form" id="modalForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <select id="courseSelect" required>
+                    <option value="">Выберите курс</option>
+                    <option value="Английский язык">Английский язык</option>
+                    <option value="Математика">Математика</option>
+                    <option value="Программирование">Программирование</option>
+                    <option value="Подготовка к школе">Подготовка к школе</option>
+                </select>
+                <button type="submit" class="btn btn-primary">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
